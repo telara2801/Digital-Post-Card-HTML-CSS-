@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+    /*font-family: 'Shadows Into dark', "cursive" ,"Segoe UI", Arial, sans-serif;*/
+    font-family: "Segoe Script", "Arial", "sans-serif";
+    width: 400px;
+    height: 800px;
+}
+/** {
+    border: 1px dashed red;
+    min-height: 10px;
+}*/
+.postcard{
+    display: row;
+    justify-content: center;
+    background: white;
+    width: 400px;
+    height: 350px;
+    padding-left: 23px;
+    margin-left: 976px;
+    margin-top: 169px;
+    /*margin: auto;*/
+}
+.postcard-header{
+    display: flex;
+    padding: 10px;
+}
+
+.postcard-header img{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+.postcard-header h1{
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+ }
+.postcard-body{
+    display: flex; 
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-family: "Segoe UI", "Arial", "sans-serif";
+
+}
+
+.nomargin-top{
+    margin-top: 15px;
+}
+.body-right, .body-left {
+    padding: 10px;
+} 
+input{
+    border: none;
+    border-bottom: 1px grey solid;
+}
+.postcard-footer{
+    text-align: center;
+}
+button{
+    font-family: "Segoe UI Black Italic";
+    background-color: rgb(122, 122, 122);
+    padding: 5px 10px;
+    border: none;
+}
+.body-right{
+    margin-top: 0px;
+    margin-bottom: 98px;
+}
